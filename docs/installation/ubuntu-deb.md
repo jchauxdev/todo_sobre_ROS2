@@ -147,16 +147,6 @@ Compiladores y herramientas para construir paquetes ROS desde fuente. Se puede i
 ```bash
 sudo apt install ros-dev-tools
 ```
-
-| | Desktop | ROS-Base | Dev Tools |
-|---|:---:|:---:|:---:|
-| Nodos y comunicación | ✅ | ✅ | — |
-| Herramientas CLI (`ros2 topic`, etc.) | ✅ | ✅ | — |
-| RViz (visualización) | ✅ | ❌ | — |
-| Demos y tutoriales | ✅ | ❌ | — |
-| Compilador (`colcon`, `cmake`) | ❌ | ❌ | ✅ |
-| Tamaño aprox. en disco | ~4 GB | ~1.5 GB | ~500 MB |
-
 ---
 
 ## Paso 4 — Configurar el entorno
