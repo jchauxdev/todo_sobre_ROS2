@@ -165,6 +165,6 @@ ros2 pkg list
 
 <div align="center">
 
-[← Volver al README principal](../../README.md)
+[← Volver a Verificar la instalación](docs/verification/talker-listener.md)
 
 </div>

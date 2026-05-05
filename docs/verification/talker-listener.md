@@ -57,7 +57,7 @@ Si ambos terminales muestran los mensajes correctamente, **¡la instalación es 
 
 <div align="center">
 
-[← Volver 📥 Instalación ROS2 Humble Hawksbill en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) &nbsp;|&nbsp; [Configuración del entorno →](../configuration/environment-setup.md)
+[← Volver 📥 Instalación ROS2 Humble Hawksbill en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) &nbsp;|&nbsp; [Creación del workspace `omni3robot_ws`](docs/workspaces/omni3robot-ws.md)
 
 
 </div>
