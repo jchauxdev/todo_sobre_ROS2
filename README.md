@@ -9,8 +9,6 @@
 
 **Repositorio para recopilar toda la información relacionada con ROS2, su aplicación en Simulación con Gazebo / Isaac Sim y el control de robots reales a la medida.**
 
-[📦 Instalación](#-instalacion)• [🧪 Verificación y primeros pasos](#-verificacion_y_primeros_pasos) • [📄 Licencia](#-licencia)
-
 </div>
 
 ---
