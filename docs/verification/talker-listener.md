@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🤖 Instalación de ROS 2 Humble en Ubuntu 22.04
-### Método: paquetes `deb` (recomendado)
+# 🤖 Verificación de la Instalación de ROS2 Humble
+### Ejemplo Publicador (Talker) - Suscriptor (Listener)
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS-orange?style=flat-square&logo=ubuntu)
 ![ROS2](https://img.shields.io/badge/ROS2-Humble%20Hawksbill-blue?style=flat-square&logo=ros)
@@ -10,12 +10,6 @@
 [← Volver al README principal](../../README.md)
 
 </div>
-
----
-
-## Tabla de contenidos
-
-- [Verificar la instalación](#paso-5--verificar-la-instalación)
 
 ---
 
@@ -63,7 +57,7 @@ Si ambos terminales muestran los mensajes correctamente, **¡la instalación es 
 
 <div align="center">
 
-[← Volver al README principal](../../README.md) &nbsp;|
+[← Volver al README principal](../../README.md) &nbsp;
 
 <!--
 [← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Configuración del entorno →](../configuration/environment-setup.md)
