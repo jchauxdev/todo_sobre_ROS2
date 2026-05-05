@@ -87,7 +87,7 @@ Inserta la microSD en el lector de tarjetas de tu PC. Si Windows muestra un avis
 
 Al abrir Etcher verás la interfaz principal con tres pasos claramente definidos:
 
-![Balena Etcher interfaz principal](/images/balena1.png)
+![Balena Etcher interfaz principal](images/balena1.png)
 
 ### 3.3 Seleccionar la imagen — **Flash from file**
 
