@@ -147,6 +147,13 @@ Compiladores y herramientas para construir paquetes ROS desde fuente. Se puede i
 ```bash
 sudo apt install ros-dev-tools
 ```
+
+Ahora vamos a inicializar rosdep, estos son pasos de inicialización que se hacen una sola vez después de instalar ROS 2.
+
+```bash
+sudo rosdep init      # crea /etc/ros/rosdep/sources.list.d/20-default.list
+rosdep update         # descarga el índice de dependencias desde internet
+```
 ---
 
 ## Paso 4 — Configurar el entorno
