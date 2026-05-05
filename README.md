@@ -48,7 +48,7 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 
 | Guía | Descripción |
 |---|---|
-| [🌍 Configuración del entorno](docs/configuration/environment-setup.md) | Variables de entorno, `.bashrc` |
+| [🗂️ Creación del workspace `omni3robot_ws`](docs/workspaces/omni3robot-ws.md) | Estructura, compilación con `colcon` y configuración en `.bashrc` |
 <!--
 | [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
 -->
