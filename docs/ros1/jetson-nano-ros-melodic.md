@@ -13,7 +13,7 @@
 
 ---
 
-> ⚠️ **Importante:** Esta guía aplica únicamente a la **Jetson Nano Developer Kit clásica** (2019), que usa Ubuntu 18.04 con JetPack 4.6.x. Si tienes una Jetson Orin NX o Jetson Orin Nano, consulta la [guía de instalación de ROS 2 Humble](ubuntu-deb.md) ya que esas plataformas corren Ubuntu 22.04.
+> ⚠️ **Importante:** Esta guía aplica únicamente a la **Jetson Nano Developer Kit clásica** (2019), que usa Ubuntu 18.04 con JetPack 4.6.x. Si tienes una Jetson Orin NX o Jetson Orin Nano, consulta la [guía de instalación de ROS 2 Humble](../../docs/installation/ubuntu-deb.md) ya que esas plataformas corren Ubuntu 22.04.
 
 ---
 
