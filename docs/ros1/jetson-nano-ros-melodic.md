@@ -98,6 +98,36 @@ sudo apt install ros-melodic-desktop
 
 ---
 
+## Solución de Errores
+
+Si al momento de ejecutar la instalación de ros-melodic-desktop aparece un error, ejecutar:
+
+1. Recrear los directorios faltantes:
+
+```bash
+sudo mkdir -p /var/cache/apt/archives/partial
+```
+
+2. Corregir los permisos:
+
+```bash
+sudo chmod 755 /var/cache/apt/archives
+sudo chmod 755 /var/cache/apt/archives/partial
+```
+
+3. Limpiar la caché de APT y verificar que funciona:
+
+```bash
+sudo apt-get autoclean
+sudo apt update
+```
+
+Después de eso vuelve a ejecutar la instalación de ROS:
+
+```bash
+bashsudo apt install ros-melodic-desktop
+```
+
 ## Paso 3 — Configurar el entorno
 
 Carga las variables de entorno de ROS automáticamente en cada nueva sesión de terminal:
