@@ -17,7 +17,7 @@
 
 ## ¿Qué es ROS 2?
 
-**ROS 2** (*Robot Operating System 2*) es un framework de código abierto para el desarrollo de software robótico. Provee herramientas, bibliotecas y convenciones que simplifican la tarea de crear comportamientos complejos y robustos en robots de todo tipo.
+**ROS 2** (*Robot Operating System 2*) es un framework de código abierto para el desarrollo de software para robótica. Provee herramientas, bibliotecas y convenciones que simplifican la tarea de crear comportamientos complejos y robustos en robots de todo tipo.
 
 **ROS 2 Humble Hawksbill** es una distribución **LTS (Long Term Support)** con soporte oficial hasta **mayo de 2027**, siendo la versión recomendada para proyectos en producción sobre Ubuntu 22.04 (Jammy Jellyfish).
 
@@ -43,7 +43,8 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 | Guía | Descripción | Plataforma |
 |---|---|---|
 | [📥 Instalación en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) | Método oficial y recomendado usando `apt`. Incluye instalación Desktop, Base y herramientas de desarrollo | Ubuntu 22.04 |
-<!-- | [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX | -->
+
+| [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX |
 
 ### ⚙️ Configuración
 
