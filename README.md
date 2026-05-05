@@ -95,6 +95,7 @@ La documentación de ROS 2 referenciada es propiedad de [Open Robotics](https://
 
 | Guía | Distribución | Plataforma |
 |---|---|---|
+| [💾 Grabado de imagen SD con Balena Etcher en Jetson Nano](docs/ros1/jetson-nano-sd-balena-etcher.md) | — | NVIDIA Jetson Nano Developer Kit |
 | [🐢 Instalación ROS Melodic Morenia en Jetson Nano Developer Kit](docs/ros1/jetson-nano-ros-melodic.md) | **ROS 1 Melodic** (EOL 2023) | NVIDIA Jetson Nano Developer Kit (JetPack 4.x / Ubuntu 18.04) |
 
 ---

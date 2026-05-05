@@ -203,7 +203,7 @@ Si los tres comandos responden correctamente, la Jetson Nano está lista para co
 
 <div align="center">
 
-[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Instalar ROS Melodic →](../installation/jetson-nano-ros-melodic.md)
+[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Instalar ROS Melodic →](../ros1/jetson-nano-ros-melodic.md)
 
 **Referencias:** [NVIDIA Jetson Nano Getting Started](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit) &nbsp;|&nbsp; [Balena Etcher](https://etcher.balena.io)
 
