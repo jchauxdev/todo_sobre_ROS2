@@ -30,12 +30,12 @@
 
 | Característica / Requisito | Detalle |
 |---|---|
-| Sistema operativo | Ubuntu **22.04 LTS** (Jammy Jellyfish) |
+| 💻 Sistema operativo | Ubuntu **22.04 LTS** (Jammy Jellyfish) |
 | 📅 Lanzamiento | Mayo 2022 |
 | 🔒 Fin de soporte | Mayo 2027 |
 | 🐧 Plataforma principal | Ubuntu 22.04 LTS (Jammy) |
 | 🏗️ Arquitecturas | `amd64`, `arm64` |
-| Espacio en disco | ~2 GB (base) / ~5 GB (desktop) |
+| 💾 Espacio en disco | ~2 GB (base) / ~5 GB (desktop) |
 | 🤖 Compatible con Jetson | JetPack 6.x (Orin NX, Orin Nano, AGX Orin) |
 | 📡 Middleware por defecto | Fast DDS (eProsima) |
 
@@ -242,9 +242,12 @@ Si ambos terminales muestran los mensajes correctamente, **¡la instalación es 
 Una vez completada la instalación, te recomendamos continuar con:
 
 - 📖 [Configuración del entorno](../configuration/environment-setup.md) — Variables de entorno y dominio ROS
+
+<!--
 - 🧪 [Verificar la instalación a fondo](../verification/talker-listener.md) — Más ejemplos de prueba
 - 📡 [Configurar el middleware RMW](../configuration/rmw-setup.md) — Cambiar Fast DDS por Cyclone DDS u otro
 - 🔍 [Solución de problemas](../troubleshooting/common-issues.md) — Si algo no funcionó
+-->
 
 O directamente los [tutoriales oficiales de ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials.html):
 
