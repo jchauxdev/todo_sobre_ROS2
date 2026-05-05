@@ -81,14 +81,6 @@ Antes de comenzar asegúrese de cumplir con los siguientes requisitos:
 
 ---
 
-## 📄 Licencia
-
-Este repositorio está bajo la licencia **Apache 2.0**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-La documentación de ROS 2 referenciada es propiedad de [Open Robotics](https://www.openrobotics.org/) bajo licencia Creative Commons Attribution 4.0.
-
----
-
 ## 🗂️ Contenido Legado — ROS 1
 
 > ⚠️ Esta sección documenta instalaciones sobre hardware y distribuciones de ROS **anteriores** al stack principal de este repositorio (ROS 2 Humble / Ubuntu 22.04). Se conserva como referencia para plataformas que no soportan ROS 2 de forma nativa.
@@ -97,6 +89,14 @@ La documentación de ROS 2 referenciada es propiedad de [Open Robotics](https://
 |---|---|---|
 | [💾 Grabado de imagen SD con Balena Etcher en Jetson Nano](docs/ros1/jetson-nano-sd-balena-etcher.md) | — | NVIDIA Jetson Nano Developer Kit |
 | [🐢 Instalación ROS Melodic Morenia en Jetson Nano Developer Kit](docs/ros1/jetson-nano-ros-melodic.md) | **ROS 1 Melodic** (EOL 2023) | NVIDIA Jetson Nano Developer Kit (JetPack 4.x / Ubuntu 18.04) |
+
+---
+
+## 📄 Licencia
+
+Este repositorio está bajo la licencia **Apache 2.0**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+La documentación de ROS 2 referenciada es propiedad de [Open Robotics](https://www.openrobotics.org/) bajo licencia Creative Commons Attribution 4.0.
 
 ---
 
