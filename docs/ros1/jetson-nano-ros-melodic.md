@@ -223,7 +223,8 @@ jetson-containers run ros2_humble
 
 <div align="center">
 
-[← Volver a Instalar ROS Melodic](../ros1/jetson-nano-ros-melodic.md) &nbsp;
+[← Volver a Grabado de imagen SD con Balena Etcher en Jetson Nano](docs/ros1/jetson-nano-sd-balena-etcher.md) &nbsp;
+
 
 **Fuente:** [Stereolabs — Getting Started with ROS on Jetson Nano](https://www.stereolabs.com/blog/ros-and-nvidia-jetson-nano) &nbsp;|&nbsp; [ROS Wiki — Melodic](https://wiki.ros.org/melodic)
 
