@@ -220,7 +220,7 @@ sudo apt upgrade
 
 <div align="center">
 
-[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Verificar la instalación](docs/verification/talker-listener.md)
+[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Verificar la instalación →](docs/verification/talker-listener.md)
 
 **Fuente oficial:** [docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 
