@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Compendio de Información sobre ROS2
+# 🤖 Transferencia de Información sobre ROS2
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble%20Hawksbill-blue?style=for-the-badge&logo=ros)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS-orange?style=for-the-badge&logo=ubuntu)
@@ -104,6 +104,6 @@ La documentación de ROS 2 referenciada es propiedad de [Open Robotics](https://
 
 <div align="center">
 
-Hecho por Julián René Cháux Cedeño para la comunidad ROS hispanohablante
+Hecho por **Julián René Cháux Cedeño** para la comunidad ROS hispanohablante
 
 </div>
