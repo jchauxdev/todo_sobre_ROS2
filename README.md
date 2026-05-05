@@ -21,10 +21,6 @@
 
 La distribución de ROS2 con la que vamos a trabajar es con **ROS 2 Humble Hawksbill**, la cual es una distribución **LTS (Long Term Support)** con soporte oficial hasta **mayo de 2027**, siendo la versión recomendada para proyectos en producción sobre Ubuntu 22.04 (Jammy Jellyfish).
 
-### ¿Por qué Humble?
-
-
-
 ---
 
 ## 📁 Contenido del repositorio
@@ -44,7 +40,7 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 
 | Guía | Descripción |
 |---|---|
-| [🌍 Configuración del entorno](docs/configuration/environment-setup.md) | Variables de entorno, `.bashrc`, shells alternativos (zsh, sh) |
+| [🌍 Configuración del entorno](docs/configuration/environment-setup.md) | Variables de entorno, `.bashrc` |
 <!--
 | [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
 -->
