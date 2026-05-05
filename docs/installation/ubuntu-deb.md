@@ -15,7 +15,7 @@
 
 ## Tabla de contenidos
 
-- [Requisitos](#requisitos)
+- [Requisitos](#caracteristicas-y/o-requisitos)
 - [Paso 1 — Configurar Locale](#paso-1--configurar-locale)
 - [Paso 2 — Configurar fuentes APT](#paso-2--configurar-fuentes-apt)
 - [Paso 3 — Instalar ROS 2](#paso-3--instalar-ros-2)
