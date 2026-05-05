@@ -44,8 +44,9 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 |---|---|---|
 | [📥 Instalación en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) | Método oficial y recomendado usando `apt`. Incluye instalación Desktop, Base y herramientas de desarrollo | Ubuntu 22.04 |
 
+<!--
 | [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX |
-
+-->
 ### ⚙️ Configuración
 
 | Guía | Descripción |
