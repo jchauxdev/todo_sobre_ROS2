@@ -50,6 +50,8 @@ Los motores utilizados en el proyecto son **Motoreductores Pololu con piñón he
 
 📄 Documentación oficial: [pololu.com/product/4756](https://www.pololu.com/product/4756)
 
+![Imagen2](images/Imagen2.png)
+
 ---
 
 ## Tipos de conexión
@@ -58,6 +60,8 @@ Cada motor requiere dos tipos de conexión con el RoboClaw:
 
 - **Conexión de potencia** — Alimenta el motor con la corriente necesaria para su operación.
 - **Conexión de encoder** — Permite al controlador leer la posición y velocidad del motor para control de lazo cerrado.
+
+![Imagen3](images/Imagen3.png)
 
 > Siga las instrucciones del instructor ya que se requieren ajustes mecánicos, eléctricos y por software antes de energizar el sistema.
 
@@ -72,6 +76,10 @@ Cada motor se conecta a los terminales de potencia del canal correspondiente del
 | Motor 1 | `M1A` y `M1B` |
 | Motor 2 | `M2A` y `M2B` |
 
+![Imagen4](images/Imagen4.png)
+
+![Imagen5](images/Imagen5.jpg)
+
 ---
 
 ## Conexiones de los encoders
@@ -83,11 +91,15 @@ Cada encoder se conecta al cabezal de encoder del canal correspondiente:
 | Encoder Motor 1 | `EN1` |
 | Encoder Motor 2 | `EN2` |
 
+![Imagen6](images/Imagen6.png)
+
 ---
 
 ## Distribución de controladores y motores
 
 El sistema utiliza **dos controladores RoboClaw** para manejar los tres motores de la plataforma:
+
+![Imagen7](images/Imagen7.png)
 
 ### RoboClaw 1 — Controlador Frontal (Motores 1 y 3)
 
@@ -127,6 +139,8 @@ Conectar cada RoboClaw **por separado** a la PC con Windows 11 usando el cable U
 - Dirección serial (Address): `128` (`0x80`)
 - Baudios: `38400`
 
+![Imagen8](images/Imagen8.png)
+
 **2. PWM Settings — Verificación de dirección y encoder**
 
 Deslizar hacia arriba el control del **Motor 1**:
@@ -152,6 +166,8 @@ Repetir con el **Motor 2** en el software (físicamente Motor 3 — delantero de
 - Marcar `Enable Multi-Unit Mode`
 - Baudios: `38400`
 - Dirección serial (Address): `129` (`0x81`)
+
+![Imagen9](images/Imagen9.png)
 
 **2. PWM Settings — Verificación de dirección y encoder**
 
