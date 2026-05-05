@@ -83,7 +83,7 @@ sudo apt update
 Instala el paquete **ROS Desktop**, que incluye soporte para `rqt`, `rviz` y otros paquetes esenciales para robótica:
 
 ```bash
-sudo apt install ros-melodic-desktop
+sudo apt install ros-melodic-desktop -o Dpkg::Options::="--force-overwrite"
 ```
 
 > **¿Por qué Desktop y no Desktop Full?**
@@ -97,36 +97,6 @@ sudo apt install ros-melodic-desktop
 | `ros-melodic-ros-base` | Solo comunicación y mensajes, sin GUI | ⚠️ Solo si el espacio es crítico |
 
 ---
-
-## Solución de Errores
-
-Si al momento de ejecutar la instalación de ros-melodic-desktop aparece un error, ejecutar:
-
-1. Recrear los directorios faltantes:
-
-```bash
-sudo mkdir -p /var/cache/apt/archives/partial
-```
-
-2. Corregir los permisos:
-
-```bash
-sudo chmod 755 /var/cache/apt/archives
-sudo chmod 755 /var/cache/apt/archives/partial
-```
-
-3. Limpiar la caché de APT y verificar que funciona:
-
-```bash
-sudo apt-get autoclean
-sudo apt update
-```
-
-Después de eso vuelve a ejecutar la instalación de ROS:
-
-```bash
-bashsudo apt install ros-melodic-desktop
-```
 
 ## Paso 3 — Configurar el entorno
 
