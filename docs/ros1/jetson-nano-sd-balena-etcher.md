@@ -8,7 +8,7 @@
 ![Etcher](https://img.shields.io/badge/Balena-Etcher-blueviolet?style=flat-square)
 ![Jetson](https://img.shields.io/badge/Hardware-Jetson%20Nano%20Dev%20Kit-green?style=flat-square)
 
-[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Instalar ROS Melodic →](../installation/jetson-nano-ros-melodic.md)
+[← Volver al README principal](../../README.md)
 
 </div>
 
