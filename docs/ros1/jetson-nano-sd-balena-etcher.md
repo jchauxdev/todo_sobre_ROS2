@@ -55,7 +55,7 @@ Descarga la imagen directamente desde el Drive del proyecto:
 
 Si prefieres descargar directamente desde NVIDIA, la imagen oficial de la Jetson Nano Developer Kit está disponible en:
 
-> 📥 **[developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)**
+> 📥 **[developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)**
 
 Busca la sección **"Prepare for Setup"** → **"Download Image"**.
 
