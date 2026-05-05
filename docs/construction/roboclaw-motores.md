@@ -131,7 +131,9 @@ Maneja únicamente la rueda trasera.
 
 Conectar cada RoboClaw **por separado** a la PC con Windows 11 usando el cable USB para configurarlos individualmente.
 
-
+> **Descarga de BasicMicro Motion Studio:** La aplicación está disponible en la [página oficial de BasicMicro](https://www.basicmicro.com/downloads?srsltid=AfmBOopEurS-ZyroLCO36JGYt1Z5SIpMfIyPDrahgUt3FHOG1E4xPhyH).
+> - Para RoboClaw **V5E**: usar la versión **Legacy** de BasicMicro Motion Studio.
+> - Para RoboClaw **V6E o superior**: usar la versión **estándar (actual)** de BasicMicro Motion Studio.
 
 ### RoboClaw 1 — (Motores 1 y 3)
 
