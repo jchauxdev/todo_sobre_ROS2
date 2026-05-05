@@ -23,7 +23,7 @@ La distribución de ROS2 con la que vamos a trabajar es con **ROS 2 Humble Hawks
 
 ---
 
-## 📁 Contenido del repositorio
+## 📁 Contenido
 
 Este repositorio está organizado en guías independientes. Cada una cubre un aspecto específico del ecosistema ROS 2.
 
@@ -36,14 +36,6 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 <!--
 | [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX |
 -->
-### ⚙️ Configuración
-
-| Guía | Descripción |
-|---|---|
-| [🌍 Configuración del entorno](docs/configuration/environment-setup.md) | Variables de entorno, `.bashrc` |
-<!--
-| [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
--->
 
 ### 🧪 Verificación y primeros pasos
 
@@ -54,6 +46,14 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 | [🔍 Solución de problemas](docs/troubleshooting/common-issues.md) | Errores frecuentes y cómo resolverlos |
 -->
 
+### ⚙️ Configuración del Espacio de trabajo (Workspace)
+
+| Guía | Descripción |
+|---|---|
+| [🌍 Configuración del entorno](docs/configuration/environment-setup.md) | Variables de entorno, `.bashrc` |
+<!--
+| [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
+-->
 
 ---
 

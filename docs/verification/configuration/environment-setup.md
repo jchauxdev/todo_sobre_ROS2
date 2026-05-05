@@ -57,7 +57,7 @@ Si ambos terminales muestran los mensajes correctamente, **¡la instalación es 
 
 <div align="center">
 
-[← Volver al README principal](../../README.md) &nbsp;
+[← Volver a Verificar la instalación](docs/verification/talker-listener.md) &nbsp;
 
 <!--
 [← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Configuración del entorno →](../configuration/environment-setup.md)
