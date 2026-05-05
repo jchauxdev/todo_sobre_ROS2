@@ -23,14 +23,7 @@ La distribución de ROS2 con la que vamos a trabajar es con **ROS 2 Humble Hawks
 
 ### ¿Por qué Humble?
 
-| Característica | Detalle |
-|---|---|
-| 📅 Lanzamiento | Mayo 2022 |
-| 🔒 Fin de soporte | Mayo 2027 |
-| 🐧 Plataforma principal | Ubuntu 22.04 LTS (Jammy) |
-| 🏗️ Arquitecturas | `amd64`, `arm64` |
-| 🤖 Compatible con Jetson | JetPack 6.x (Orin NX, Orin Nano, AGX Orin) |
-| 📡 Middleware por defecto | Fast DDS (eProsima) |
+
 
 ---
 

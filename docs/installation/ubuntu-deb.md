@@ -26,15 +26,18 @@
 
 ---
 
-## Requisitos
+## Características y/o Requisitos
 
-| Requisito | Versión / Detalle |
+| Característica / Requisito | Detalle |
 |---|---|
 | Sistema operativo | Ubuntu **22.04 LTS** (Jammy Jellyfish) |
-| Arquitectura | `amd64` o `arm64` |
-| Acceso a internet | Requerido |
-| Permisos | `sudo` |
+| 📅 Lanzamiento | Mayo 2022 |
+| 🔒 Fin de soporte | Mayo 2027 |
+| 🐧 Plataforma principal | Ubuntu 22.04 LTS (Jammy) |
+| 🏗️ Arquitecturas | `amd64`, `arm64` |
 | Espacio en disco | ~2 GB (base) / ~5 GB (desktop) |
+| 🤖 Compatible con Jetson | JetPack 6.x (Orin NX, Orin Nano, AGX Orin) |
+| 📡 Middleware por defecto | Fast DDS (eProsima) |
 
 > **Nota:** Los paquetes `deb` de ROS 2 Humble están disponibles **únicamente** para Ubuntu 22.04. Si usas otra versión de Ubuntu, consulta la [guía de instalación desde fuente](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html).
 
