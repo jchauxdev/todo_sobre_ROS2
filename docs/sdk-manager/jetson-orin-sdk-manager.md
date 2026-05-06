@@ -7,7 +7,7 @@
 ![JetPack](https://img.shields.io/badge/JetPack-6.2.2-green?style=flat-square)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS%20Jammy-orange?style=flat-square&logo=ubuntu)
 ![SDK Manager](https://img.shields.io/badge/SDK%20Manager-2.4.0-blue?style=flat-square)
-![Jetson](https://img.shields.io/badge/Hardware-Jetson%20Orin%20NX%2016GB-76b900?style=flat-square)
+![Jetson](https://img.shields.io/badge/Hardware-Jetson%20Orin%20NX%2016GB-76b900?style=flat-square)(https://img.shields.io/badge/Hardware-Jetson%20Nano%20NX%2016GB-76b900?style=flat-square)
 
 [← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Instalar ROS 2 Humble →](ubuntu-deb.md)
 
