@@ -345,7 +345,7 @@ ssh jetsonnx@192.168.55.1
 La primera vez, SSH pedirá confirmar el fingerprint del host. Escribe `yes`:
 
 <div align="center">
-<img src="images/14.png width="600" alt="Conexión SSH exitosa a la Jetson Orin NX"/>
+<img src="images/14.png" width="600" alt="Conexión SSH exitosa a la Jetson Orin NX"/>
 <br><em>Conexión SSH exitosa — Ubuntu 22.04.5 LTS corriendo en la Jetson Orin NX (aarch64)</em>
 </div>
 
