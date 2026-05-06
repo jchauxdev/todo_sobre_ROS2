@@ -154,7 +154,7 @@ Para que el SDK Manager pueda flashear la Jetson, esta debe estar en **modo Reco
 
 ### 4.1 ¿Cómo entrar en modo Recovery?
 
-En la Jetson Orin NX Developer Kit, el modo Recovery se activa **cortocircuitando (puenteando) los pines de Recovery** ubicados en la placa base antes de encender la Jetson.
+En la Jetson Orin NX Developer Kit, el modo Recovery se activa **cortocircuitando (puenteando) los pines de Recovery FC_REC** y GND, ubicados en la placa base antes de encender la Jetson.
 
 <div align="center">
 <img src="images/3.jpeg" width="480" alt="Jumper en pines de Recovery Mode de la Jetson Orin NX"/>
