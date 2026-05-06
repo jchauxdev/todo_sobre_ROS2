@@ -135,8 +135,15 @@ sdkmanager
 Al abrirse, aparecerá la pantalla de login. Selecciona la pestaña **"NVIDIA DEVELOPER"** e inicia sesión con tu cuenta de `developer.nvidia.com`. Si el navegador no abre automáticamente, puedes escanear el código QR que aparece en la pantalla.
 
 <div align="center">
-<img src="../assets/sdk-manager/01-sdkm-login.png" width="700" alt="SDK Manager - pantalla de login NVIDIA Developer"/>
+<img src="images/4.png" width="700" alt="SDK Manager - pantalla de login NVIDIA Developer"/>
 <br><em>Pantalla de login del SDK Manager — usar cuenta NVIDIA Developer</em>
+</div>
+
+Una vez ingresemos y sin configurar la Jetson en modo Recovery tendremos la siguiente imagen:
+
+<div align="center">
+<img src="images/5.png" width="700" alt="SDK Manager Step 01 - Jetson Orin NX 16GB detectada sin DeepStream"/>
+<br><em>Step 01 — Jetson Orin NX 16GB detectada, JetPack 6.2.2 seleccionado (sin SDKs adicionales)</em>
 </div>
 
 ---
@@ -150,7 +157,7 @@ Para que el SDK Manager pueda flashear la Jetson, esta debe estar en **modo Reco
 En la Jetson Orin NX Developer Kit, el modo Recovery se activa **cortocircuitando (puenteando) los pines de Recovery** ubicados en la placa base antes de encender la Jetson.
 
 <div align="center">
-<img src="../assets/sdk-manager/03-recovery-mode-jumper.jpeg" width="480" alt="Jumper en pines de Recovery Mode de la Jetson Orin NX"/>
+<img src="images/3.jpeg" width="480" alt="Jumper en pines de Recovery Mode de la Jetson Orin NX"/>
 <br><em>Puentear los pines de Recovery con un jumper o cable antes de encender</em>
 </div>
 
@@ -195,23 +202,18 @@ Con la Jetson en modo Recovery y conectada por USB-C, el SDK Manager la detectar
 - **Additional SDKs:** DeepStream y GXF Runtime (opcionales, seleccionar según necesidad)
 
 <div align="center">
-<img src="../assets/sdk-manager/04-sdkm-step01-orin-nx.png" width="700" alt="SDK Manager Step 01 - Jetson Orin NX 16GB detectada sin DeepStream"/>
+<img src="images/6.png" width="700" alt="SDK Manager Step 01 - Jetson Orin NX 16GB detectada sin DeepStream"/>
 <br><em>Step 01 — Jetson Orin NX 16GB detectada, JetPack 6.2.2 seleccionado (sin SDKs adicionales)</em>
 </div>
 
 <br>
 
 <div align="center">
-<img src="../assets/sdk-manager/05-sdkm-step01-orin-nx-deepstream.png" width="700" alt="SDK Manager Step 01 - con DeepStream y GXF Runtime seleccionados"/>
+<img src="images/7.png" width="700" alt="SDK Manager Step 01 - con DeepStream y GXF Runtime seleccionados"/>
 <br><em>Step 01 — Con DeepStream 7.1 y GXF Runtime 4.1 seleccionados</em>
 </div>
 
 > **Nota:** Si el SDK Manager muestra `Jetson AGX Thor modules` o `Could not detect a board`, verifica la conexión USB-C y que la Jetson esté correctamente en modo Recovery. Usa el botón **"refresh"** del campo Target Hardware.
-
-<div align="center">
-<img src="../assets/sdk-manager/02-sdkm-step01-agx-thor.png" width="700" alt="SDK Manager Step 01 - placa no detectada correctamente"/>
-<br><em>Ejemplo de detección incorrecta — verificar conexión USB y modo Recovery</em>
-</div>
 
 Haz clic en **CONTINUE TO STEP 02**.
 
@@ -233,8 +235,10 @@ Esta pantalla muestra todos los componentes que serán descargados e instalados,
 - Flash Jetson Linux
 - Jetson Runtime Components + Additional Setups
 
+Selecciona todos para instalar todas las herramientas.
+
 <div align="center">
-<img src="../assets/sdk-manager/06-sdkm-step02-components.png" width="700" alt="SDK Manager Step 02 - lista de componentes HOST y TARGET"/>
+<img src="images/8.png" width="700" alt="SDK Manager Step 02 - lista de componentes HOST y TARGET"/>
 <br><em>Step 02 — Componentes a descargar e instalar. El sistema requiere ~51 GB en el host</em>
 </div>
 
@@ -243,7 +247,7 @@ Esta pantalla muestra todos los componentes que serán descargados e instalados,
 Al hacer clic en **CONTINUE TO STEP 03**, si las carpetas de descarga e instalación no existen, el SDK Manager preguntará si deseas crearlas. Haz clic en **Create**:
 
 <div align="center">
-<img src="../assets/sdk-manager/07-sdkm-step02-create-folders.png" width="700" alt="SDK Manager - crear carpetas de descarga e instalación"/>
+<img src="images/9.png width="700" alt="SDK Manager - crear carpetas de descarga e instalación"/>
 <br><em>Crear las carpetas automáticamente al continuar</em>
 </div>
 
@@ -254,7 +258,7 @@ Al hacer clic en **CONTINUE TO STEP 03**, si las carpetas de descarga e instalac
 El SDK Manager comenzará a descargar todos los componentes e instalarlos en paralelo. Este proceso puede tomar entre **30 minutos y 2 horas** dependiendo de la velocidad de internet.
 
 <div align="center">
-<img src="../assets/sdk-manager/08-sdkm-step03-downloading.png" width="700" alt="SDK Manager Step 03 - descarga en progreso"/>
+<img src="images/10.png" width="700" alt="SDK Manager Step 03 - descarga en progreso"/>
 <br><em>Step 03 — Descarga e instalación en progreso. Se puede monitorear en la pestaña TERMINAL</em>
 </div>
 
@@ -263,7 +267,7 @@ El SDK Manager comenzará a descargar todos los componentes e instalarlos en par
 Cuando la descarga del sistema operativo esté lista, el SDK Manager mostrará el **diálogo de configuración del flash**. Aquí se define cómo se instalará el sistema en la Jetson:
 
 <div align="center">
-<img src="../assets/sdk-manager/09-sdkm-step03-flash-config.png" width="700" alt="SDK Manager - diálogo de configuración del flash"/>
+<img src="images/11.png" width="700" alt="SDK Manager - diálogo de configuración del flash"/>
 <br><em>Diálogo de flash — primera aparición mientras el SDK continúa descargando</em>
 </div>
 
@@ -281,11 +285,6 @@ Cuando la descarga del sistema operativo esté lista, el SDK Manager mostrará e
 
 > ⚠️ **Seleccionar `NVMe`** en Storage Device es crítico. Si dejas la opción por defecto (eMMC o SD), el sistema se instalará en la memoria interna del módulo en lugar del SSD.
 
-<div align="center">
-<img src="../assets/sdk-manager/10-sdkm-step03-flash-config2.png" width="700" alt="SDK Manager - configuración de flash con NVMe seleccionado"/>
-<br><em>Configuración final del flash — NVMe seleccionado, credenciales definidas. Clic en Flash</em>
-</div>
-
 <br>
 
 Haz clic en **Flash**. El SDK Manager comenzará a escribir la imagen en el SSD.
@@ -293,7 +292,7 @@ Haz clic en **Flash**. El SDK Manager comenzará a escribir la imagen en el SSD.
 Mientras el flash ocurre, el SDK Manager verificará la preparación del sistema en la Jetson:
 
 <div align="center">
-<img src="../assets/sdk-manager/11-sdkm-step03-verifying.png" width="700" alt="SDK Manager - verificando preparación del sistema en la Jetson"/>
+<img src="images/12.png" width="700" alt="SDK Manager - verificando preparación del sistema en la Jetson"/>
 <br><em>Verificando: espacio en disco, acceso a internet, repositorios APT e imagen del sistema</em>
 </div>
 
@@ -304,7 +303,7 @@ Mientras el flash ocurre, el SDK Manager verificará la preparación del sistema
 Cuando todos los componentes estén instalados correctamente, el SDK Manager mostrará la pantalla de finalización con el estado **"INSTALLATION COMPLETED SUCCESSFULLY"**.
 
 <div align="center">
-<img src="../assets/sdk-manager/12-sdkm-step04-complete.png" width="700" alt="SDK Manager Step 04 - instalación completada exitosamente"/>
+<img src="images/13.png" width="700" alt="SDK Manager Step 04 - instalación completada exitosamente"/>
 <br><em>Step 04 — Todos los componentes instalados correctamente en la Jetson Orin NX 16GB</em>
 </div>
 
@@ -346,7 +345,7 @@ ssh jetsonnx@192.168.55.1
 La primera vez, SSH pedirá confirmar el fingerprint del host. Escribe `yes`:
 
 <div align="center">
-<img src="../assets/sdk-manager/13-ssh-connection.png" width="600" alt="Conexión SSH exitosa a la Jetson Orin NX"/>
+<img src="images/14.png width="600" alt="Conexión SSH exitosa a la Jetson Orin NX"/>
 <br><em>Conexión SSH exitosa — Ubuntu 22.04.5 LTS corriendo en la Jetson Orin NX (aarch64)</em>
 </div>
 
@@ -359,7 +358,7 @@ lsb_release -a
 ```
 
 <div align="center">
-<img src="../assets/sdk-manager/14-lsb-release.png" width="500" alt="lsb_release mostrando Ubuntu 22.04.5 LTS Jammy"/>
+<img src="images/15.png" width="500" alt="lsb_release mostrando Ubuntu 22.04.5 LTS Jammy"/>
 <br><em>Ubuntu 22.04.5 LTS Jammy confirmado en la Jetson Orin NX</em>
 </div>
 
@@ -380,7 +379,7 @@ nvidia-smi
 ```
 
 <div align="center">
-<img src="../assets/sdk-manager/15-nvidia-smi.png" width="600" alt="nvidia-smi mostrando CUDA 12.6 y driver 540.5.0 en Jetson Orin NX"/>
+<img src="images/16.png" width="600" alt="nvidia-smi mostrando CUDA 12.6 y driver 540.5.0 en Jetson Orin NX"/>
 <br><em>nvidia-smi — CUDA 12.6 y Driver 540.5.0 funcionando en la Jetson Orin NX (GPU Orin nvgpu)</em>
 </div>
 
