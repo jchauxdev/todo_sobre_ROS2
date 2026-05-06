@@ -68,7 +68,7 @@ El **NVIDIA SDK Manager** es la herramienta oficial para flashear el sistema ope
 La Jetson Orin NX Developer Kit incluye una ranura **M.2 Key M** en la parte inferior de la placa base para instalar un SSD NVMe. Esta es la unidad donde el SDK Manager instalará el sistema operativo.
 
 <div align="center">
-<img src="../assets/sdk-manager/00-jetson-orin-nx-ssd.jpg" width="480" alt="Jetson Orin NX Developer Kit con SSD M.2"/>
+<img src="images/0.jpg" width="480" alt="Jetson Orin NX Developer Kit con SSD M.2"/>
 <br><em>Jetson Orin NX Developer Kit — ranura M.2 Key M para SSD NVMe</em>
 </div>
 
