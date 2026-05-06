@@ -30,6 +30,7 @@ Este repositorio está organizado en guías independientes. Cada una cubre un as
 | Guía | Descripción | Plataforma |
 |---|---|---|
 | [📥 Instalación ROS2 Humble Hawksbill en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) | Método oficial y recomendado usando `apt`. Incluye instalación Desktop, Base y herramientas de desarrollo | Ubuntu 22.04 |
+| [🟢 SDK Manager NVIDIA — Jetson Orin NX](docs/sdk-manager/jetson-orin-sdk-manager.md) | Uso del SDK Manager de NVIDIA para flashear y configurar la Jetson Orin NX | Jetson Orin NX |
 
 <!--
 | [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX |
