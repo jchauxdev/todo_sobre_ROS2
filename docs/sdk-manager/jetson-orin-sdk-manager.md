@@ -2,7 +2,7 @@
 
 # 🛠️ Instalación de JetPack 6.2 con NVIDIA SDK Manager
 ### Jetson Orin NX 16 GB — NVMe SSD + Ubuntu 22.04
-### Jetson Orin 8 GB — NVMe SSD + Ubuntu 22.04
+### Jetson Orin Nano 8 GB — NVMe SSD + Ubuntu 22.04
 
 ![JetPack](https://img.shields.io/badge/JetPack-6.2.2-green?style=flat-square)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS%20Jammy-orange?style=flat-square&logo=ubuntu)
