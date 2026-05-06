@@ -227,7 +227,7 @@ sudo apt upgrade
 
 <div align="center">
 
-[← Volver a SDK Manager NVIDIA — Jetson Orin NX](docs/sdk-manager/jetson-orin-sdk-manager.md) &nbsp;|&nbsp; [Verificar la instalación →](../../docs/verification/talker-listener.md)
+[← Volver a SDK Manager NVIDIA — Jetson Orin NX](../sdk-manager/jetson-orin-sdk-manager.md) &nbsp;|&nbsp; [Verificar la instalación →](../../docs/verification/talker-listener.md)
 
 **Fuente oficial:** [docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 
