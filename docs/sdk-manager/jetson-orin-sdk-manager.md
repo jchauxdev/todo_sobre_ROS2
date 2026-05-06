@@ -247,7 +247,7 @@ Selecciona todos para instalar todas las herramientas.
 Al hacer clic en **CONTINUE TO STEP 03**, si las carpetas de descarga e instalación no existen, el SDK Manager preguntará si deseas crearlas. Haz clic en **Create**:
 
 <div align="center">
-<img src="images/9.png width="700" alt="SDK Manager - crear carpetas de descarga e instalación"/>
+<img src="images/9.png" width="700" alt="SDK Manager - crear carpetas de descarga e instalación"/>
 <br><em>Crear las carpetas automáticamente al continuar</em>
 </div>
 
