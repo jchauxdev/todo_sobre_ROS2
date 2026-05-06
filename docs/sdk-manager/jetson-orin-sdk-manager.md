@@ -407,7 +407,7 @@ Si todos los comandos responden correctamente, la Jetson Orin NX está lista par
 
 <div align="center">
 
-[← Volver a SDK Manager NVIDIA — Jetson Orin NX](docs/sdk-manager/jetson-orin-sdk-manager.md) &nbsp;|&nbsp; [Instalar ROS 2 Humble →](../installation/ubuntu-deb.md)
+[← Volver al README principal](../../README.md) &nbsp;|&nbsp; [Instalar ROS 2 Humble →](../installation/ubuntu-deb.md)
 
 **Referencias:** [NVIDIA SDK Manager](https://developer.nvidia.com/sdk-manager) &nbsp;|&nbsp; [JetPack 6.2 Release Notes](https://developer.nvidia.com/embedded/jetpack-sdk-62)
 
