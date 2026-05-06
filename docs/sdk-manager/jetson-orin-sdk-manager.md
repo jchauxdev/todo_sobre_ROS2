@@ -2,6 +2,7 @@
 
 # 🛠️ Instalación de JetPack 6.2 con NVIDIA SDK Manager
 ### Jetson Orin NX 16 GB — NVMe SSD + Ubuntu 22.04
+### Jetson Orin 8 GB — NVMe SSD + Ubuntu 22.04
 
 ![JetPack](https://img.shields.io/badge/JetPack-6.2.2-green?style=flat-square)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS%20Jammy-orange?style=flat-square&logo=ubuntu)
@@ -80,11 +81,6 @@ La Jetson Orin NX Developer Kit incluye una ranura **M.2 Key M** en la parte inf
 2. Insertar el SSD NVMe en la ranura M.2 Key M en ángulo (~30°).
 3. Presionar hacia abajo hasta que quede plano y asegurar con el tornillo.
 4. Verificar que el SSD quede firmemente instalado antes de continuar.
-
-<div align="center">
-<img src="../assets/sdk-manager/16-jetson-orin-nx-board.png" width="480" alt="Placa base Jetson Orin NX - vista inferior con ranura M.2"/>
-<br><em>Vista inferior de la placa — ranura M.2 NVMe visible en el centro</em>
-</div>
 
 > ⚠️ NVIDIA recomienda un mínimo de **256 GB** en el SSD. Con menos capacidad la instalación puede completarse, pero el espacio para desarrollo será muy limitado.
 
