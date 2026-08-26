@@ -63,11 +63,43 @@ Esta guía detalla el procedimiento para configurar un sistema de **triple arran
 
 ## Paso 2 — Preparación crítica del host (Windows 11)
 
-Antes de modificar las particiones, es obligatorio realizar estos ajustes para evitar bloqueos del TPM y del sistema de archivos:
+Antes de modificar las particiones, es obligatorio realizar estos ajustes para evitar bloqueos del TPM y del sistema de archivos.
 
-1. **Desactivar Cifrado de Dispositivo:** ir a `Privacidad y seguridad > Cifrado de dispositivo` y desactivarlo.
-2. **Desactivar Inicio Rápido:** en `Opciones de energía`, desmarcar "Activar inicio rápido" para liberar el hardware en el apagado.
-3. **Gestión de espacio:** desde la `Administración de discos`, reducir el volumen `(C:)` para crear bloques de "Espacio no asignado" (mínimo 50 GB por cada versión de Linux).
+### 2.1 Desactivar Cifrado de Dispositivo (BitLocker)
+
+Si el disco está cifrado, el instalador de Ubuntu puede no reconocer correctamente el espacio libre o dejar la partición Windows inaccesible tras el particionado.
+
+1. Abrir **Configuración** (`Win + I`).
+2. Ir a **Privacidad y seguridad**. La entrada **"Cifrado de dispositivo"** debería aparecer dentro del bloque **Seguridad**, junto a "Seguridad de Windows".
+   - **Si no aparece ahí** (caso común en **PC de escritorio**, como un Ryzen 7 5700G sin soporte de *Modern Standby*): Windows Home requiere ese soporte para ofrecer Cifrado de dispositivo, así que en muchos equipos de escritorio la opción **directamente no existe** en el menú — lo cual significa que el disco **no está cifrado** y este paso no aplica.
+   - Para confirmarlo, escribe `cmd` en el buscador de Windows, abre el **Símbolo del sistema** y ejecuta:
+
+     ```cmd
+     manage-bde -status C:
+     ```
+
+     Si el estado de protección indica **"Protección desactivada"** o el comando responde que BitLocker no está disponible, el disco no está cifrado y puedes pasar directo al [punto 2.2](#22-desactivar-inicio-rápido-fast-startup).
+   - En ediciones **Windows 11 Pro/Enterprise**, busca en su lugar **"Administrar BitLocker"** desde el buscador de Windows, o ve al **Panel de control** → `Sistema y seguridad` → `Cifrado de unidad BitLocker`.
+3. Si el cifrado sí está activo, desactívalo (interruptor de **Cifrado de dispositivo**, o "Desactivar BitLocker") y espera a que la unidad `(C:)` termine de descifrarse por completo (puede tardar varios minutos).
+
+### 2.2 Desactivar Inicio Rápido (Fast Startup)
+
+El Inicio Rápido deja el disco en un estado de "hibernación parcial" que puede impedir que GRUB detecte correctamente las particiones de Windows.
+
+1. Abrir el **Panel de control** (buscarlo desde el menú Inicio) → **Sistema y seguridad** → **Opciones de energía**.
+2. En el panel izquierdo, hacer clic en **"Elegir el comportamiento de los botones de inicio/apagado"**.
+3. Hacer clic en **"Cambiar la configuración actualmente no disponible"** (requiere permisos de administrador).
+4. En la sección **"Configuración de apagado"**, desmarcar la casilla **"Activar inicio rápido (recomendado)"**.
+5. Hacer clic en **Guardar cambios**.
+
+### 2.3 Gestión de espacio (reducir la partición de Windows)
+
+1. Presionar `Win + X` (o clic derecho sobre el botón Inicio) y seleccionar **Administración de discos** (*Disk Management*).
+2. Hacer clic derecho sobre el volumen `(C:)` y seleccionar **"Reducir volumen"** (*Shrink Volume*).
+3. Windows calculará el espacio máximo disponible para reducir; ingresar la cantidad en MB (mínimo **51200 MB** ≈ 50 GB **por cada versión de Linux**, es decir, ~100 GB en total para las dos instalaciones de Ubuntu).
+4. Hacer clic en **Reducir**. El espacio liberado aparecerá como **"Espacio no asignado"** (en negro) junto a la partición `(C:)` — este es el espacio que se usará durante la instalación de Ubuntu.
+
+> ⚠️ No formatear ni asignar una letra de unidad al espacio no asignado: el instalador de Ubuntu se encargará de crear las particiones sobre él en el [Paso 4](#paso-4--instalación-manual-particionado).
 
 ---
 
