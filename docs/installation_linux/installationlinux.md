@@ -52,7 +52,7 @@ Esta guía detalla el procedimiento para configurar un sistema de **triple arran
 
 **Sistemas operativos:**
 
-- [Ubuntu 24.04 LTS (Noble Numbat)](https://ubuntu.com/download/desktop) — Para uso general y desarrollo moderno.
+- [Ubuntu 24.04 LTS (Noble Numbat)](https://releases.ubuntu.com/noble/) — Para uso general y desarrollo moderno.
 - [Ubuntu 22.04 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/) — Requerido para compatibilidad con NVIDIA SDK Manager (Jetson Orin Nano).
 
 **Herramientas de grabación:**
