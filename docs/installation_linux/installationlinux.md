@@ -117,11 +117,20 @@ Para que el arranque sea reconocido por la BIOS/UEFI moderna:
 
 ## Paso 4 — Instalación manual (particionado)
 
-Al iniciar el instalador de Ubuntu, seleccionar siempre **"Algo más"** para gestionar las particiones manualmente:
+Al iniciar el instalador de Ubuntu, seleccionar siempre **"Algo más"** (*Something else*) para gestionar las particiones manualmente. En la pantalla de particionado verás la tabla de particiones del disco, incluyendo el "espacio libre" creado en el [Paso 2.3](#23-gestión-de-espacio-reducir-la-partición-de-windows):
 
-1. **Punto de montaje:** seleccionar el espacio libre y crear una partición `Ext4` con punto de montaje `/`.
-2. **Partición EFI:** identificar la partición existente de ~272 MB (donde reside Windows). **Nunca formatearla.** El instalador añadirá automáticamente la entrada de GRUB ahí.
-3. **Bootloader:** instalar el cargador de arranque en el disco raíz (ej. `/dev/nvme0n1`), no en una partición individual.
+1. **Crear la partición raíz:** seleccionar la fila de **"espacio libre"** y hacer clic en el botón **`+`**. En el diálogo, configurar:
+   - **Tamaño:** el total disponible (o el que quieras reservar para esta versión de Ubuntu).
+   - **Usar como:** `sistema de archivos con journaling Ext4`.
+   - **Punto de montaje:** `/`.
+
+   Confirmar con **OK** — esto crea la partición y la agrega a la tabla.
+
+2. **No tocar la partición EFI:** en la misma tabla identificarás la partición existente de ~272 MB, etiquetada como `efi` (es la que usa Windows para arrancar). **No la selecciones ni la formatees.** El instalador la reutiliza automáticamente para agregar la entrada de arranque de Ubuntu — no hace falta crearla ni asignarle punto de montaje.
+
+3. **Configurar el bootloader:** en la parte inferior de esa misma pantalla, en el desplegable **"Dispositivo donde se instalará el gestor de arranque"**, seleccionar el **disco completo** (ej. `/dev/nvme0n1`), **no** una partición individual (ej. `/dev/nvme0n1p3`). Así GRUB se instala apuntando a la partición EFI existente en lugar de crear una nueva.
+
+4. Hacer clic en **"Instalar ahora"**. Aparecerá un resumen de los cambios que se escribirán en el disco (nueva partición Ext4 + uso de la partición EFI existente) — confirmar con **"Continuar"** y seguir con el resto del asistente (zona horaria, teclado, usuario).
 
 ---
 
