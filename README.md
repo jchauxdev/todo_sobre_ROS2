@@ -25,6 +25,14 @@ La distribución de ROS2 con la que vamos a trabajar es con **ROS 2 Humble Hawks
 
 Este repositorio está organizado en guías independientes. Cada una cubre un aspecto específico del ecosistema ROS 2.
 
+### 💻 Preparación del sistema (Host)
+
+Antes de instalar ROS 2, tu equipo debe contar con Ubuntu funcionando como sistema operativo. Si partes de un PC con Windows, esta guía te lleva paso a paso por la configuración de un arranque múltiple sin perder tu instalación actual:
+
+| Guía | Descripción | Plataforma |
+|---|---|---|
+| [🖥️ Triple Boot: Windows 11 + Ubuntu 24.04 + Ubuntu 22.04](docs/installation_linux/installationlinux.md) | Configuración de arranque múltiple preservando Windows Boot Manager, en hardware AMD Ryzen 7 5700G / NVMe | PC / Laptop (amd64) |
+
 ### 🛠️ NVIDIA SDK Manager
 
 | Guía | Descripción | Plataforma |
