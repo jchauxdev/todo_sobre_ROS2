@@ -173,7 +173,7 @@ source ~/.bashrc
 
 Una vez completada la instalación, te recomendamos continuar con:
 
-- 📖 [Configuración del entorno](../configuration/environment-setup.md) — Variables de entorno y dominio ROS
+- 📖 [Configuración del entorno](../workspaces/omni3robot-ws.md) — Variables de entorno y dominio ROS
 
 <!--
 - 🧪 [Verificar la instalación a fondo](../verification/talker-listener.md) — Más ejemplos de prueba
