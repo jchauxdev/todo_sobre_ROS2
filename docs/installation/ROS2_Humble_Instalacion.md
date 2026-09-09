@@ -159,13 +159,6 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Zsh
-
-```bash
-echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
-source ~/.zshrc
-```
-
 Verifica que ROS 2 está activo:
 
 ```bash

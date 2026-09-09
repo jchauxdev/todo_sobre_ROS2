@@ -43,7 +43,7 @@ Antes de instalar ROS 2, tu equipo debe contar con Ubuntu funcionando como siste
 
 | Guía | Descripción | Plataforma |
 |---|---|---|
-| [📥 Instalación ROS2 Humble Hawksbill en Ubuntu 22.04 (paquetes deb)](docs/installation/ubuntu-deb.md) | Método oficial y recomendado usando `apt`. Incluye instalación Desktop, Base y herramientas de desarrollo | Ubuntu 22.04 |
+| [📥 Instalación ROS2 Humble Hawksbill en Ubuntu 22.04 (paquetes deb)](docs/installation/ROS2_Humble_Instalacion.md) | Método oficial y recomendado usando `apt`. Incluye instalación Desktop, Base y herramientas de desarrollo | Ubuntu 22.04 |
 
 <!--
 | [🟢 Instalación en Jetson Orin NX (JetPack 6)](docs/installation/jetson-orin-nx.md) | Instalación vía imagen SD Card y SDK Manager para la Jetson Orin NX 16 GB | Jetson Orin NX |
