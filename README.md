@@ -62,7 +62,7 @@ Antes de instalar ROS 2, tu equipo debe contar con Ubuntu funcionando como siste
 
 | Guía | Descripción |
 |---|---|
-| [🗂️ Creación del workspace `omni3robot_ws`](docs/workspaces/omni3robot-ws.md) | Estructura, compilación con `colcon` y configuración en `.bashrc` |
+| [🗂️ Creación del workspace `robot_ws`](docs/workspaces/robot-ws.md) | Estructura, compilación con `colcon` y configuración en `.bashrc` |
 <!--
 | [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
 -->
