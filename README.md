@@ -67,6 +67,12 @@ Antes de instalar ROS 2, tu equipo debe contar con Ubuntu funcionando como siste
 | [📡 Configuración de RMW](docs/configuration/rmw-setup.md) | Cambiar el middleware (Fast DDS, Cyclone DDS, Zenoh) |
 -->
 
+### 🐢 TurtleBot3
+
+| Guía | Descripción |
+|---|---|
+| [🤖 TurtleBot3 con ROS 2 Humble](docs/turtlebot3/turtlebot3-humble.md) | Instalación, configuración y simulación en Gazebo con TurtleBot3 Waffle Pi |
+
 ---
 
 ## 📋 Requisitos previos
