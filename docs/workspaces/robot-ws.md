@@ -248,6 +248,6 @@ colcon build
 
 <div align="center">
 
-[← Volver a Verificar la instalación](../../docs/verification/talker-listener.md)
+[← Volver a Verificar la instalación](../../docs/verification/talker-listener.md) &nbsp;|&nbsp; [TurtleBot3 con ROS 2 Humble →](../../docs/turtlebot3/turtlebot3-humble.md)
 
 </div>
