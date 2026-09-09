@@ -46,7 +46,7 @@
 
 ROS 2 requiere que el sistema tenga un locale con soporte **UTF-8**. Si estás en un entorno mínimo (por ejemplo, un contenedor Docker), el locale puede estar configurado como `POSIX` — en ese caso este paso es obligatorio.
 
-Verifica el locale actual:
+Corrige el mirror de APT (necesario en algunas instalaciones locales/regionales) y actualiza la caché de paquetes:
 
 ```bash
 sudo sed -i 's|co.archive.ubuntu.com|archive.ubuntu.com|g' /etc/apt/sources.list
@@ -85,7 +85,7 @@ sudo add-apt-repository universe
 
 ### 2.2 Instalar el paquete de fuentes de ROS 2
 
-El paquete `ros-apt-source` configura automáticamente las claves GPG y las fuentes APT del repositorio oficial de ROS 2. Las actualizaciones de configuración del repositorio ocurren de forma automática cuando se publican nuevas versiones de este paquete.
+Descarga la clave GPG oficial de ROS 2 y guárdala como keyring del sistema:
 
 ```bash
 sudo apt install curl -y
@@ -93,7 +93,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key \
   -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
 
-Descarga e instala el paquete de fuentes:
+Agrega el repositorio de ROS 2 a las fuentes de APT, firmado con esa clave:
 
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \
@@ -121,9 +121,7 @@ sudo apt upgrade -y
 
 ### 3.2 Elegir el tipo de instalación
 
-Hay tres opciones. Elige **una** según tu caso de uso:
-
-#### 🖥️ Opción A — Desktop (Recomendada)
+#### 🖥️ Instalación Desktop (Recomendada)
 
 Incluye ROS 2, RViz, demos y tutoriales. **Es la opción recomendada** para desarrollo y aprendizaje.
 
@@ -202,7 +200,8 @@ sudo apt remove '~nros-humble-*' && sudo apt autoremove
 Para eliminar también el repositorio de fuentes:
 
 ```bash
-sudo apt remove ros2-apt-source
+sudo rm /etc/apt/sources.list.d/ros2.list
+sudo rm /usr/share/keyrings/ros-archive-keyring.gpg
 sudo apt update
 sudo apt autoremove
 sudo apt upgrade
